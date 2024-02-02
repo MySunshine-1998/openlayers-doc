@@ -2,7 +2,7 @@
  * @Author: sunyue
  * @Date: 2024-01-15 15:49:59
  * @LastEditors: sunyue
- * @LastEditTime: 2024-02-02 11:09:30
+ * @LastEditTime: 2024-02-02 15:18:41
  * @Description: 描述
  * Copyright (c) 2024 by 中国科学院软件研究所, All Rights Reserved. 
  */
@@ -13,7 +13,6 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
-    base: '/openlayers-doc/',
     plugins: [prismjsPlugin({
         languages: ['markup', 'css', 'javascript'], // 语言
         plugins: ['line-numbers', 'show-language', 'copy-to-clipboard', 'inline-color'],
